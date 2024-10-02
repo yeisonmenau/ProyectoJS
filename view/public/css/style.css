@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;  /*cien porciento de lo que se ve  */
+    background-image: url("../img/fondo.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 40%;
+    height: 40%;
+    display: inherit; /*Hereda atributos del padre*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    backdrop-filter: blur(10px);
+}
+.form div label{
+    color: white;
+    letter-spacing: 2px;
+}
+.form div input{
+    outline: none;
+    height: 30px;
+    border-radius: 6px;
+    text-transform: capitalize;
+}
+.form div{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form button{
+    width: 25%;
+    height: 35px;
+    margin-top: 20px;
+    background-color: darkslategrey;
+    border: none;
+    border-radius: 6px;
+}

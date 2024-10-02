@@ -1,0 +1,17 @@
+MVC (Modelo Vista Controlador )
+
+MODEL -> Modelo: Base de Datos (Datos)
+VIEW  -> Vista: Interfaz gráfica HTML  (Gráfica)
+CONTROLLER -> Controlador: Parte lógica, lenguaje de programación (Lógica)
+
+
+ESTRUCTURA
+
+Model
+Controller
+View -> public -> css
+                  img
+                  js
+index.html
+
+
