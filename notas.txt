@@ -14,4 +14,13 @@ View -> public -> css
                   js
 index.html
 
+Selectores js
 
+getElement
+    getElementById -> Selecciona por ID
+    getElementByClassName -> Selecciona por clase 
+    getElementByTagName -> Selecciona elemento por nombre de etiqueta 
+
+querySelector 
+    querySelector -> Permite seleccionar por ID por clase y por etiqueta (solo selcciona al primero)
+    querySelectorAll -> Permite seleccionar por ID por clase y por etiqueta (seleciona a todos lo que tenga el mismo parametro)
