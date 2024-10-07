@@ -10,9 +10,9 @@ ESTRUCTURA
 Model
 Controller
 View -> public -> css
-                  img
+index.html        img
                   js
-index.html
+
 
 Selectores js
 
@@ -23,4 +23,39 @@ getElement
 
 querySelector 
     querySelector -> Permite seleccionar por ID por clase y por etiqueta (solo selcciona al primero)
-    querySelectorAll -> Permite seleccionar por ID por clase y por etiqueta (seleciona a todos lo que tenga el mismo parametro)
+    querySelectorAll -> Permite seleccionar por ID por clase y por etiqueta (seleciona a todos lo que 
+    tenga el mismo parametro)
+
+Objetos: Una estructura de datos que puede almacenar cualquier otro tipo de dato: (llave y valor)
+Casi todas las etiquetas HTML tienen una propiedad textContent (menos los input), la cual permite accerder
+al texto que es visible para el usuario. Para los input la propiedad que permite modificar el contenido es la
+value. 
+literales o por constructor
+
+
+El DOM es manipulado por medio de eventos 
+
+Eventos de Usuario -> Toda acción que realiza un usuario dentro de una aplicación: click, doble click, scroll,
+presionar una tecla, etc. 
+Eventos de Documento -> Toda accion que se realiza por debajo y no es visible para el usuario.
+
+los eventos son funciones o acciones que se pueden definir desde el html o desde el JavaScript, y siempre serán
+ejecutados por medio de funciones.
+
+Funciones 
+Bloque de código que encapsulado que se puede llamar donde quiera y ejecutará una accion definida
+
+Funciones regulares ->
+    Declarativas -> Se almacen en el alcance global de la aplicación (hoisting)
+    Expresión -> No tienen alcance global, y se definen bajo una variable 
+
+Funciones flecha ->
+Funciones Anónimas ->
+
+Eventos predeterminados 
+    Mouse -> Click, doble click, ingreso del mause, salida del mause, scroll
+             onclick, ondbclick, onmauseenter,onmauseout
+    Teclado -> 
+
+Módulos
+Importacion y exportacion de contenido entre archivos JS
