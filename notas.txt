@@ -50,7 +50,7 @@ Funciones regulares ->
     Expresión -> No tienen alcance global, y se definen bajo una variable 
 
 Funciones flecha ->
-Funciones Anónimas ->
+Funciones Anónimas -> Función que no lleva nombre y se ejecuta unicamente 
 
 Eventos predeterminados 
     Mouse -> Click, doble click, ingreso del mause, salida del mause, scroll
@@ -59,3 +59,21 @@ Eventos predeterminados
 
 Módulos
 Importacion y exportacion de contenido entre archivos JS
+
+Métodos de los arreglos
+    map()-> iteracion que manipulan todo el arreglo el cual retornará un nuevo arreglo
+    filter()-> Filtra el contenido de una arreglo bajo una condicion, retornando un nuevo
+    arreglo.
+    find()-> iteracion que busca un unico elemento dentro de un arreglo y retorna ese
+    elemento.
+    some()-> iteracion que busca un único elemento dentro de un arreglo y retorna true false
+    push()-> Agrega un elemento a la ultima posicion del arreglo actual.
+    pop()-> Elimina la ultima posicion de un arreglo.
+    shift()-> Elimina la primera posicion de un arreglo. 
+    unshift()->Agrega un elemento a la primera posición de un arreglo. 
+    spice-> Elimina un elemento de una posicion n de un arreglo
+    foreach->
+
+Método Mutables-> Modifica el arreglo original
+
+Método no Mutables-> No modifica el arreglo original

@@ -1,11 +1,12 @@
-import { usuarios } from "../../../model/ModelUsuarios.js"  
-console.log(usuarios)
-function IniciarSesion (){
-    let usuario = document.querySelector("#usuario").value
-    let contraseña = document.querySelector("#contraseña").value
-    if (usuario == "admin" && contraseña == "123"){
-        alert("bienvenido")
+import {BuscarUsuario} from "../../../controller/ControllerUsuarios.js"
+
+
+function IniciarSesion() {
+    if(BuscarUsuario()){
+        window.location.href='/view/pages/home.html'
     }else{
-        alert("usuario incorrecto")
+        console.log("Error de credenciales");
     }
 }
+
+document.querySelector('#btnIniciar').addEventListener('click', IniciarSesion)
